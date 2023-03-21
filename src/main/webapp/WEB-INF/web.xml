@@ -6,22 +6,22 @@
     
     <servlet>
         <servlet-name>firstServlet</servlet-name>
-        <servlet-class>>com.mycompany.servletpractical.servletSession.FirstServlet</servlet-class>
+        <servlet-class>servletSession.FirstServlet</servlet-class>
     </servlet>
     
     <servlet-mapping>
         <servlet-name>firstServlet</servlet-name>
-        <url-pattern>/FirstServlet</url-pattern>
+        <url-pattern>/FirstSessionServlet</url-pattern>
     </servlet-mapping>
     
     <servlet>
         <servlet-name>secondServlet</servlet-name>
-        <servlet-class>>com.mycompany.servletpractical.servletSession.SecondServlet</servlet-class>
+        <servlet-class>servletSession.SecondServlet</servlet-class>
     </servlet>
     
     <servlet-mapping>
         <servlet-name>secondServlet</servlet-name>
-        <url-pattern>/SecondServlet</url-pattern>
+        <url-pattern>/SecondSessionServlet</url-pattern>
     </servlet-mapping>
     
     <session-config>
