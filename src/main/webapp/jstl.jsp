@@ -9,6 +9,8 @@
 
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<%@page errorPage="error.jsp" %>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,5 +22,17 @@
         <hr>
         <c:set var="name" value="Dev Prasad Bashyal"></c:set>
         <c:out value="${name}"></c:out>
+        
+        <%!
+            int a= 40;
+            int b= 0;
+        %>
+        
+        <%
+            int division = a/b;
+        %>
+        
+        <h2>Division : <%= division %> </h2>
+            
     </body>
 </html>
